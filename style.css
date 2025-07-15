@@ -1,0 +1,75 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #f0e68c;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 10px;
+}
+
+.seat {
+  background: linear-gradient(145deg, #2e2a44, #3e395d);
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.05);
+  padding: 20px;
+  transition: transform 0.3s ease;
+  border: 1px solid #cfa93f;
+}
+
+.seat:hover {
+  transform: translateY(-5px);
+}
+
+.seat h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+.seat p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+ 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #c4c4c4;
+}
+
+.btn-timer{
+  background: #28dc5b;
+  color: #1f1f1f;
+}
+
+.btn-drink{
+  background: #ffcf4b;
+  color: #1f1f1f;
+}
+
+.btn-reset{
+  background: #ef496d;
+  color: #ffffff;
+}
